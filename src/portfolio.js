@@ -36,7 +36,8 @@ const socialMediaLinks = {
   github: "https://github.com/Venkatag14",
   linkedin: "https://www.linkedin.com/in/venkatabodda/",
   gmail: "vbodda@wpi.edu",
-  stackoverflow: "https://stackoverflow.com/users/23637429/venkata-sai-krishna-bodda",
+  stackoverflow:
+    "https://stackoverflow.com/users/23637429/venkata-sai-krishna-bodda",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -51,7 +52,9 @@ const skillsSection = {
     emoji(
       "⚡ Design and Develop impresiive control and dynamic algorithms for Robots ranging form manipulators to Drones"
     ),
-    emoji("⚡ Impressive Projects in Traditional and deep learning based Computer Vision"),
+    emoji(
+      "⚡ Impressive Projects in Traditional and deep learning based Computer Vision"
+    ),
     emoji(
       "⚡ Integrating Motion Planning Control Algorithms, SLAM In ROS for Autonomous Robotics Ultrasound Imaging"
     )
@@ -102,13 +105,13 @@ const educationInfo = {
       schoolName: "Worcester Polytechnic Institute",
       logo: require("./assets/images/wpilogo.png"),
       subHeader: "Master of Science in Robotics Engineering",
-      duration: "August 2023 - May 2025",
+      duration: "August 2023 - May 2025"
     },
     {
       schoolName: "Vellore Institute of Technology",
       logo: require("./assets/images/vitlogo.png"),
       subHeader: "Bachelor of Technology in Mechanical Engineering",
-      duration: "july 2017 - May 2021",
+      duration: "july 2017 - May 2021"
     }
   ]
 };
@@ -208,7 +211,8 @@ const bigProjects = {
     {
       image: require("./assets/images/r_1.png"),
       projectName: "SFM, NeRF",
-      projectDesc: "Generated 3D models and Novel views From static Images using Sfm and NeRF",
+      projectDesc:
+        "Generated 3D models and Novel views From static Images using Sfm and NeRF",
       footerLink: [
         {
           name: "Visit Website",
@@ -220,7 +224,8 @@ const bigProjects = {
     {
       image: require("./assets/images/dynamics.jpg"),
       projectName: "Dynamics of Manipulators",
-      projectDesc: "Derived torque inputs for a 3 rotational link robot to move in a smooth trajectory while computing twist and wrench for each link to accurately follow trajectories while holding payloads.",
+      projectDesc:
+        "Derived torque inputs for a 3 rotational link robot to move in a smooth trajectory while computing twist and wrench for each link to accurately follow trajectories while holding payloads.",
       footerLink: [
         {
           name: "Visit Website",
